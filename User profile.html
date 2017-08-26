@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+    <head>
+        <title>User profile</title>
+        <meta charset="utf-8">
+        <link href="css/style4.css" rel="stylesheet" type="text/css"></link>
+    </head>
+    <body>
+        <div id="container">
+        <div id="wrapper">
+            <div id="login" class="animate form">
+                <form>
+                <h1>Your profile information</h1>
+                <table width="398" border="0" align="left" cellpadding="0">
+                
+                <p>
+                <tr>
+                    <td width="82" valign="top"><div align="left">Fullame:</div></td>
+                    <td width="165" valign="top"><?php echo $fullname ?></td>
+                </tr>
+                </p>
+
+                <p>
+                <tr>
+                    <td valign="top"><div align="left">Username:</div></td>
+                    <td valign="top"><?php echo $username ?></td>
+                </tr>
+                </p>
+
+                <tr>
+                    <td valign="top"><div align="left">Email:</div></td>
+                    <td valign="top"><?php echo $email ?></td>
+                </tr>
+                <tr>
+                    <td valign="top"><div align="left">Password:</div></td>
+                    <td valign="top"><?php echo $password ?></td>
+                </tr>
+                <tr>
+                    <td valign="top"><div align="left">Added recipe:</div></td>
+                    <td valign="top"><?php echo $added_recipe ?></td>
+                </tr>
+                <tr>
+                    <td valign="top"><div align="left">Deleted recipe:</div></td>
+                    <td valign="top"><?php echo $delete_recipe ?></td>
+                </tr>
+                <tr>
+                    <td valign="top"><div align="left">Upvote recipes:</div></td>
+                    <td valign="top"><?php echo $upvote_recipe ?></td>
+                </tr>
+                </table>
+
+                <div align="right"><a href="index.php">Logout</a></div>
+            
+            </form>
+        </div>
+    </body>
+</html>
